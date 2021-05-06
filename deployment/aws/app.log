@@ -1,0 +1,68 @@
+[0m[1mmodule.aws.random_pet.test: Refreshing state... [id=toucan][0m
+[0m[1mmodule.aws.tls_private_key.boundary: Refreshing state... [id=7cb502a5844569dfeea86afd571c0cc086ee531e][0m
+[0m[1mmodule.aws.tls_self_signed_cert.boundary: Refreshing state... [id=43996025813509212393082840798968682828][0m
+[0m[1mmodule.aws.aws_iam_role.boundary: Refreshing state... [id=boundary-toucan][0m
+[0m[1mmodule.aws.aws_eip.nat[0]: Refreshing state... [id=eipalloc-3fe78d07][0m
+[0m[1mmodule.aws.aws_eip.nat[1]: Refreshing state... [id=eipalloc-4ee98376][0m
+[0m[1mmodule.aws.aws_acm_certificate.cert: Refreshing state... [id=arn:aws:acm:eu-central-1:874370287054:certificate/dd385b12-3e61-47cc-b772-b56d58aa30b1][0m
+[0m[1mmodule.aws.aws_kms_key.root: Refreshing state... [id=2afc4e73-b799-49cd-8f8d-386f9d3e0671][0m
+[0m[1mmodule.aws.aws_kms_key.worker_auth: Refreshing state... [id=808263e7-bd18-4e2d-b090-e29861b28d7a][0m
+[0m[1mmodule.aws.aws_key_pair.boundary: Refreshing state... [id=boundary][0m
+[0m[1mmodule.aws.aws_kms_key.recovery: Refreshing state... [id=779b7333-de13-4343-8a08-00ded2f2ccea][0m
+[0m[1mmodule.aws.aws_vpc.main: Refreshing state... [id=vpc-0842d081522b11a38][0m
+[0m[1mmodule.aws.aws_iam_role_policy.boundary: Refreshing state... [id=boundary-toucan:boundary-toucan][0m
+[0m[1mmodule.aws.aws_iam_instance_profile.boundary: Refreshing state... [id=boundary-toucan][0m
+[0m[1mmodule.aws.aws_subnet.private[0]: Refreshing state... [id=subnet-06809e4d101a24c50][0m
+[0m[1mmodule.aws.aws_security_group.db: Refreshing state... [id=sg-0e2165eda8795ecc9][0m
+[0m[1mmodule.aws.aws_security_group.worker: Refreshing state... [id=sg-02bd612b6d71f62c6][0m
+[0m[1mmodule.aws.aws_internet_gateway.this: Refreshing state... [id=igw-0561dbedf1a6f13fe][0m
+[0m[1mmodule.aws.aws_lb_target_group.controller: Refreshing state... [id=arn:aws:elasticloadbalancing:eu-central-1:874370287054:targetgroup/boundary-controller-toucan/aa64c1872ade4517][0m
+[0m[1mmodule.aws.aws_subnet.public[1]: Refreshing state... [id=subnet-0a502e59183bdb348][0m
+[0m[1mmodule.aws.aws_subnet.private[1]: Refreshing state... [id=subnet-082a6da187deab306][0m
+[0m[1mmodule.aws.aws_security_group.controller: Refreshing state... [id=sg-025813cb1dad9d16e][0m
+[0m[1mmodule.aws.aws_route_table.private[0]: Refreshing state... [id=rtb-094fc4aa8db3ef728][0m
+[0m[1mmodule.aws.aws_route_table.private[1]: Refreshing state... [id=rtb-0dd0b60a60d6c153a][0m
+[0m[1mmodule.aws.aws_subnet.public[0]: Refreshing state... [id=subnet-0ab7f0e6b9de00da6][0m
+[0m[1mmodule.aws.aws_security_group.controller_lb: Refreshing state... [id=sg-00f957e3fd6040bb1][0m
+[0m[1mmodule.aws.aws_route_table.public[1]: Refreshing state... [id=rtb-09dba914f00b690fc][0m
+[0m[1mmodule.aws.aws_route_table.public[0]: Refreshing state... [id=rtb-06263a455af9fe1e5][0m
+[0m[1mmodule.aws.aws_security_group_rule.allow_any_ingress: Refreshing state... [id=sgrule-1314236029][0m
+[0m[1mmodule.aws.aws_nat_gateway.private[0]: Refreshing state... [id=nat-0903269d2dc86d8ed][0m
+[0m[1mmodule.aws.aws_nat_gateway.private[1]: Refreshing state... [id=nat-0bde245e08298285d][0m
+[0m[1mmodule.aws.aws_security_group_rule.allow_egress_worker: Refreshing state... [id=sgrule-951133625][0m
+[0m[1mmodule.aws.aws_instance.target[0]: Refreshing state... [id=i-00e61f0d16a21d9e9][0m
+[0m[1mmodule.aws.aws_security_group_rule.allow_ssh_worker: Refreshing state... [id=sgrule-1504899502][0m
+[0m[1mmodule.aws.aws_security_group_rule.allow_9202_worker: Refreshing state... [id=sgrule-972500171][0m
+[0m[1mmodule.aws.aws_security_group_rule.allow_web_worker: Refreshing state... [id=sgrule-2970670762][0m
+[0m[1mmodule.aws.aws_security_group_rule.allow_egress_controller: Refreshing state... [id=sgrule-1816399360][0m
+[0m[1mmodule.aws.aws_security_group_rule.allow_controller_sg: Refreshing state... [id=sgrule-2643149068][0m
+[0m[1mmodule.aws.aws_security_group_rule.allow_9200_controller: Refreshing state... [id=sgrule-3017961165][0m
+[0m[1mmodule.aws.aws_security_group_rule.allow_ssh_controller: Refreshing state... [id=sgrule-3581784293][0m
+[0m[1mmodule.aws.aws_security_group_rule.allow_9201_controller: Refreshing state... [id=sgrule-1371591374][0m
+[0m[1mmodule.aws.aws_route_table_association.private[0]: Refreshing state... [id=rtbassoc-06472540dceeb6ed3][0m
+[0m[1mmodule.aws.aws_route_table_association.private[1]: Refreshing state... [id=rtbassoc-0d268ac823aa1b636][0m
+[0m[1mmodule.aws.aws_lb.controller: Refreshing state... [id=arn:aws:elasticloadbalancing:eu-central-1:874370287054:loadbalancer/net/boundary-controller-toucan/513cee72418ccaad][0m
+[0m[1mmodule.aws.aws_db_subnet_group.boundary: Refreshing state... [id=boundary][0m
+[0m[1mmodule.aws.aws_security_group_rule.allow_9200: Refreshing state... [id=sgrule-943014857][0m
+[0m[1mmodule.aws.aws_route.public_internet_gateway[1]: Refreshing state... [id=r-rtb-09dba914f00b690fc1080289494][0m
+[0m[1mmodule.aws.aws_route.public_internet_gateway[0]: Refreshing state... [id=r-rtb-06263a455af9fe1e51080289494][0m
+[0m[1mmodule.aws.aws_route_table_association.public_subnets[0]: Refreshing state... [id=rtbassoc-0ae33ba4299686f24][0m
+[0m[1mmodule.aws.aws_route_table_association.public_subnets[1]: Refreshing state... [id=rtbassoc-0f977e22bcc3c0412][0m
+[0m[1mmodule.aws.aws_route.nat_gateway[0]: Refreshing state... [id=r-rtb-094fc4aa8db3ef7281080289494][0m
+[0m[1mmodule.aws.aws_route.nat_gateway[1]: Refreshing state... [id=r-rtb-0dd0b60a60d6c153a1080289494][0m
+[0m[1mmodule.aws.aws_db_instance.boundary: Refreshing state... [id=terraform-20210428205042778500000005][0m
+[0m[1mmodule.aws.aws_lb_listener.controller: Refreshing state... [id=arn:aws:elasticloadbalancing:eu-central-1:874370287054:listener/net/boundary-controller-toucan/513cee72418ccaad/7bea83d528b16943][0m
+[0m[1mmodule.aws.aws_instance.controller[1]: Refreshing state... [id=i-095d13a165110a54d][0m
+[0m[1mmodule.aws.aws_instance.controller[0]: Refreshing state... [id=i-07fafdd7a2bbecb7a][0m
+[0m[1mmodule.aws.aws_lb_target_group_attachment.controller[1]: Refreshing state... [id=arn:aws:elasticloadbalancing:eu-central-1:874370287054:targetgroup/boundary-controller-toucan/aa64c1872ade4517-20210428205456696500000006][0m
+[0m[1mmodule.aws.aws_lb_target_group_attachment.controller[0]: Refreshing state... [id=arn:aws:elasticloadbalancing:eu-central-1:874370287054:targetgroup/boundary-controller-toucan/aa64c1872ade4517-20210428205456721800000007][0m
+[0m[1mmodule.aws.aws_instance.worker[0]: Refreshing state... [id=i-06d64566cb3d719a9][0m
+[33m╷[0m[0m
+[33m│[0m [0m[1m[33mWarning: [0m[0m[1mVersion constraints inside provider configuration blocks are deprecated[0m
+[33m│[0m [0m
+[33m│[0m [0m[0m  on aws/net.tf line 2, in provider "aws":
+[33m│[0m [0m   2:   version = [4m"~> 3.0"[0m[0m
+[33m│[0m [0m
+[33m│[0m [0mTerraform 0.13 and earlier allowed provider version constraints inside the provider configuration block, but that is now deprecated and will be removed in a future version of Terraform. To silence this warning, move the
+[33m│[0m [0mprovider version constraint into the required_providers block.
+[33m╵[0m[0m

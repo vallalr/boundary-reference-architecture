@@ -12,7 +12,7 @@ locals {
 }
 
 variable "tag" {
-  default = "boundary-test"
+  default = "boundary"
 }
 
 variable "boundary_bin" {
