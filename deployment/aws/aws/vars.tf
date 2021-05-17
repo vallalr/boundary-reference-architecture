@@ -12,7 +12,7 @@ locals {
 }
 
 variable "tag" {
-  default = "boundary-test"
+  default = "boundary"
 }
 
 variable "boundary_bin" {
@@ -24,23 +24,23 @@ variable "pub_ssh_key_path" {
 }
 
 variable "num_workers" {
-  default = 1
+  default = 3
 }
 
 variable "num_controllers" {
-  default = 2
+  default = 3
 }
 
 variable "num_targets" {
-  default = 1
+  default = 0
 }
 
 variable "num_subnets_public" {
-  default = 2
+  default = 3
 }
 
 variable "num_subnets_private" {
-  default = 2
+  default = 3
 }
 
 variable "tls_cert_path" {

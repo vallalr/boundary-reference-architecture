@@ -6,8 +6,8 @@ resource "boundary_scope" "global" {
 
 resource "boundary_scope" "org" {
   scope_id    = boundary_scope.global.id
-  name        = "organization"
-  description = "Organization scope"
+  name        = "Adappt Limited"
+  description = "Adappt Limited Scope"
 }
 
 // create a project for core infrastructure

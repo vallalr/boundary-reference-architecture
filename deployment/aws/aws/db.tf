@@ -6,7 +6,7 @@ resource "aws_db_instance" "boundary" {
   instance_class      = "db.t2.micro"
   name                = "boundary"
   username            = "boundary"
-  password            = "boundarydemo"
+  password            = "UZagiJJutVEhX2NnEm4ZzYV5"
   skip_final_snapshot = true
 
   vpc_security_group_ids = [aws_security_group.db.id]

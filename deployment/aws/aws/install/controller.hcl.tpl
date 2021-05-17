@@ -6,11 +6,11 @@ telemetry {
 }
 
 controller {
-  name        = "demo-controller-${name_suffix}"
-  description = "A controller for a demo!"
+  name        = "controller-${name_suffix}"
+  description = "A controller for Adappt Limited!"
 
   database {
-    url = "postgresql://boundary:boundarydemo@${db_endpoint}/boundary"
+    url = "postgresql://boundary:UZagiJJutVEhX2NnEm4ZzYV5@${db_endpoint}/boundary"
   }
 }
 
