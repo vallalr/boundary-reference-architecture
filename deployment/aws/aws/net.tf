@@ -51,13 +51,6 @@ resource "aws_eip" "nat" {
   tags  = local.tags
 }
 
-resource "aws_nat_gateway" "private" {
-  count         = var.num_subnets_private
-  subnet_id     = aws_subnet.private.*.id[count.index]
-  allocation_id = aws_eip.nat.*.id[count.index]
-  tags          = local.tags
-}
-
 # Public Routes
 resource "aws_route_table" "public" {
   count  = var.num_subnets_public
@@ -97,15 +90,4 @@ resource "aws_route_table_association" "private" {
   count          = var.num_subnets_private
   subnet_id      = aws_subnet.private.*.id[count.index]
   route_table_id = aws_route_table.private.*.id[count.index]
-}
-
-resource "aws_route" "nat_gateway" {
-  count                  = var.num_subnets_private
-  route_table_id         = aws_route_table.private.*.id[count.index]
-  destination_cidr_block = "0.0.0.0/0"
-  nat_gateway_id         = aws_nat_gateway.private.*.id[count.index]
-
-  timeouts {
-    create = "5m"
-  }
 }
