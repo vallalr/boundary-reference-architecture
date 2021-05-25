@@ -1,13 +1,6 @@
-resource "boundary_auth_method" "password" {
-  name        = "corp_password_auth_method"
-  description = "Password auth method for Corp org"
-  type        = "password"
-  scope_id    = boundary_scope.org.id
-}
-
 resource "boundary_auth_method_oidc" "oidc" {
-  name        = "azure"
-  description = "azure oidc auth method"
+  name        = "Adappt Limited Azure SSO"
+  description = ""
   type        = "oidc"
   scope_id    = boundary_scope.org.id
   issuer      = "https://sts.windows.net/4acd36da-e183-4bb9-979c-add9146cef0a/"

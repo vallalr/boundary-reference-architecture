@@ -34,7 +34,7 @@ boundary auth-methods create oidc \
   -client-secret _S-X38.iW__JB36Msu.TPZwAW0Qrne-220 \
   -signing-algorithm RS256 \
   -api-url-prefix "https://boundary.pecedu.in" \
-  -name "azure"
+  -name "Adappt Limited Azure SSO"
 
 
   boundary authenticate password \

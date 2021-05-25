@@ -11,7 +11,7 @@ resource "tls_self_signed_cert" "boundary" {
     organization = "Boundary, dev."
   }
 
-  validity_period_hours = 12
+  validity_period_hours = 43800
 
   allowed_uses = [
     "key_encipherment",
